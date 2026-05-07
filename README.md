@@ -79,20 +79,3 @@ java -cp .:mysql-connector-java.jar Main
 ```
 
 ---
-
-## ⚠️ Observações importantes (aula introdutória)
-
-Este código é um ponto de partida didático. Em um ambiente real, algumas melhorias seriam necessárias:
-
-- **Nunca** deixar senhas hardcoded no código — use variáveis de ambiente
-- Usar `try-with-resources` para fechar conexões automaticamente
-- Tratar exceções adequadamente
-- O driver `com.mysql.jdbc.Driver` está depreciado — prefira `com.mysql.cj.jdbc.Driver`
-- Utilizar `PreparedStatement` para evitar SQL Injection
-
----
-
-## 📝 Licença
-
-Uso educacional — conteúdo de aula introdutória.
-````
